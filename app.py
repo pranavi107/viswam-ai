@@ -9,8 +9,8 @@ Original file is located at
 
 import pandas as pd
 
-df_loan = pd.read_csv('/content/loan_applications.csv')
-df_txn = pd.read_csv('/content/transactions.csv')
+df_loan = pd.read_csv('"C:\Users\admin\OneDrive\Desktop\studies\SOAI Internship\loan_applications.csv"')
+df_txn = pd.read_csv('"C:\Users\admin\OneDrive\Desktop\studies\SOAI Internship\transactions.csv"')
 
 print("Loan Applications:")
 display(df_loan.head())
